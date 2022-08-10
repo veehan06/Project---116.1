@@ -1,0 +1,45 @@
+h3{
+    font-size: 30px !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn-success{
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn-success:hover{
+    background-color: red;
+    animation-name: btn;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+h3:hover{
+    animation-name: h3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+canvas{
+    animation-name: canvas;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-style: dashed;
+    border-color: white;
+}
+@keyframes btn {
+    from {background-color: red;}
+  to {background-color: yellow;}
+  }
+@keyframes h3 {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+@keyframes canvas {
+    0%   {box-shadow: 1px 1px 50px violet;}
+    15%  {box-shadow: 1px 1px 50px indigo;}
+    30%  {box-shadow: 1px 1px 50px blue;}
+    45%  {box-shadow: 1px 1px 50px green;}
+    60% {box-shadow: 1px 1px 50px yellow;}
+    75% {box-shadow: 1px 1px 50px orange;}
+    90% {box-shadow: 1px 1px 50px red;}
+    100% {box-shadow: 1px 1px 50px violet;}
+    }
